@@ -1,0 +1,738 @@
+Initialized native services in: /home/lagoueyte/.gradle/native
+Creating new cache for fileHashes, path /home/lagoueyte/.gradle/caches/3.5.1/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@4ed5eb72
+Creating new cache for jvmRuntimeClassSignatures, path /home/lagoueyte/.gradle/caches/3.5.1/fileHashes/jvmRuntimeClassSignatures.bin, access org.gradle.cache.internal.DefaultCacheAccess@4ed5eb72
+Creating new cache for plugin-use-metadata, path /home/lagoueyte/.gradle/caches/3.5.1/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@293a5f75
+Creating new cache for client-status, path /home/lagoueyte/.gradle/caches/3.5.1/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@293a5f75
+Starting Build
+Settings evaluated using settings file '/home/lagoueyte/dev/repos/scooby/settings.gradle'.
+Projects loaded. Root project using build file '/home/lagoueyte/dev/repos/scooby/build.gradle'.
+Included projects: [root project 'scooby', project ':application', project ':featureA', project ':featureB', project ':featureA:api', project ':featureA:implementation', project ':featureB:api', project ':featureB:implementation']
+Evaluating root project 'scooby' using build file '/home/lagoueyte/dev/repos/scooby/build.gradle'.
+Creating new cache for metadata-1.1/results, path /home/lagoueyte/.gradle/caches/transforms-1/metadata-1.1/results.bin, access org.gradle.cache.internal.DefaultCacheAccess@54bca971
+Creating new cache for metadata-2.23/module-metadata, path /home/lagoueyte/.gradle/caches/modules-2/metadata-2.23/module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@70972170
+Creating new cache for metadata-2.23/artifact-at-repository, path /home/lagoueyte/.gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin, access org.gradle.cache.internal.DefaultCacheAccess@70972170
+Using 8 worker leases.
+Creating new cache for fileHashes, path /home/lagoueyte/dev/repos/scooby/.gradle/3.5.1/taskHistory/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@557a84fe
+Applying dependency management to configuration 'apiElements' in project 'application'
+Applying dependency management to configuration 'archives' in project 'application'
+Applying dependency management to configuration 'compile' in project 'application'
+Applying dependency management to configuration 'compileClasspath' in project 'application'
+Applying dependency management to configuration 'compileOnly' in project 'application'
+Applying dependency management to configuration 'default' in project 'application'
+Applying dependency management to configuration 'implementation' in project 'application'
+Applying dependency management to configuration 'runtime' in project 'application'
+Applying dependency management to configuration 'runtimeClasspath' in project 'application'
+Applying dependency management to configuration 'runtimeElements' in project 'application'
+Applying dependency management to configuration 'runtimeOnly' in project 'application'
+Applying dependency management to configuration 'testCompile' in project 'application'
+Applying dependency management to configuration 'testCompileClasspath' in project 'application'
+Applying dependency management to configuration 'testCompileOnly' in project 'application'
+Applying dependency management to configuration 'testImplementation' in project 'application'
+Applying dependency management to configuration 'testRuntime' in project 'application'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'application'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'application'
+Applying dependency management to configuration 'providedCompile' in project 'application'
+Applying dependency management to configuration 'providedRuntime' in project 'application'
+Evaluating project ':application' using build file '/home/lagoueyte/dev/repos/scooby/application/build.gradle'.
+Configuring agent
+Evaluating project ':featureA' using build file '/home/lagoueyte/dev/repos/scooby/featureA/build.gradle'.
+Evaluating project ':featureB' using build file '/home/lagoueyte/dev/repos/scooby/featureB/build.gradle'.
+Evaluating project ':featureA:api' using build file '/home/lagoueyte/dev/repos/scooby/featureA/api/build.gradle'.
+Evaluating project ':featureA:implementation' using build file '/home/lagoueyte/dev/repos/scooby/featureA/implementation/build.gradle'.
+Evaluating project ':featureB:api' using build file '/home/lagoueyte/dev/repos/scooby/featureB/api/build.gradle'.
+Evaluating project ':featureB:implementation' using build file '/home/lagoueyte/dev/repos/scooby/featureB/implementation/build.gradle'.
+All projects evaluated.
+Selected primary task 'clean' from project :
+Selected primary task 'build' from project :
+Creating new cache for annotation-processors, path /home/lagoueyte/dev/repos/scooby/.gradle/3.5.1/fileContent/annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@3686389
+Tasks to be executed: [task ':clean', task ':application:clean', task ':featureA:clean', task ':featureB:clean', task ':featureA:api:clean', task ':featureA:implementation:clean', task ':featureB:api:clean', task ':featureB:implementation:clean', task ':compileJava', task ':processResources', task ':classes', task ':jar', task ':assemble', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':check', task ':build', task ':featureA:api:compileJava', task ':featureA:api:processResources', task ':featureA:api:classes', task ':featureA:api:jar', task ':featureA:implementation:compileJava', task ':featureA:implementation:processResources', task ':featureA:implementation:classes', task ':featureA:implementation:jar', task ':featureB:api:compileJava', task ':featureB:api:processResources', task ':featureB:api:classes', task ':featureB:api:jar', task ':featureB:implementation:compileJava', task ':featureB:implementation:processResources', task ':featureB:implementation:classes', task ':featureB:implementation:jar', task ':application:compileJava', task ':application:processResources', task ':application:classes', task ':application:findMainClass', task ':application:war', task ':application:bootRepackage', task ':application:assemble', task ':application:compileTestJava', task ':application:processTestResources', task ':application:testClasses', task ':application:test', task ':application:check', task ':application:build', task ':featureA:compileJava', task ':featureA:processResources', task ':featureA:classes', task ':featureA:jar', task ':featureA:assemble', task ':featureA:compileTestJava', task ':featureA:processTestResources', task ':featureA:testClasses', task ':featureA:test', task ':featureA:check', task ':featureA:build', task ':featureB:compileJava', task ':featureB:processResources', task ':featureB:classes', task ':featureB:jar', task ':featureB:assemble', task ':featureB:compileTestJava', task ':featureB:processTestResources', task ':featureB:testClasses', task ':featureB:test', task ':featureB:check', task ':featureB:build', task ':featureA:api:assemble', task ':featureA:api:compileTestJava', task ':featureA:api:processTestResources', task ':featureA:api:testClasses', task ':featureA:api:test', task ':featureA:api:check', task ':featureA:api:build', task ':featureA:implementation:assemble', task ':featureA:implementation:compileTestJava', task ':featureA:implementation:processTestResources', task ':featureA:implementation:testClasses', task ':featureA:implementation:test', task ':featureA:implementation:check', task ':featureA:implementation:build', task ':featureB:api:assemble', task ':featureB:api:compileTestJava', task ':featureB:api:processTestResources', task ':featureB:api:testClasses', task ':featureB:api:test', task ':featureB:api:check', task ':featureB:api:build', task ':featureB:implementation:assemble', task ':featureB:implementation:compileTestJava', task ':featureB:implementation:processTestResources', task ':featureB:implementation:testClasses', task ':featureB:implementation:test', task ':featureB:implementation:check', task ':featureB:implementation:build']
+Creating new cache for jvmClassSignatures, path /home/lagoueyte/dev/repos/scooby/.gradle/3.5.1/taskHistory/jvmClassSignatures.bin, access org.gradle.cache.internal.DefaultCacheAccess@557a84fe
+Creating new cache for fileSnapshots, path /home/lagoueyte/dev/repos/scooby/.gradle/3.5.1/taskHistory/fileSnapshots.bin, access org.gradle.cache.internal.DefaultCacheAccess@557a84fe
+Creating new cache for taskHistory, path /home/lagoueyte/dev/repos/scooby/.gradle/3.5.1/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@557a84fe
+:clean (Thread[main,5,main]) started.
+:clean
+Putting task artifact state for task ':clean' into context took 0.001 secs.
+Executing task ':clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:clean (Thread[main,5,main]) completed. Took 0.01 secs.
+:application:clean (Thread[main,5,main]) started.
+:application:clean
+Putting task artifact state for task ':application:clean' into context took 0.0 secs.
+Executing task ':application:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:application:clean (Thread[main,5,main]) completed. Took 0.005 secs.
+:featureA:clean (Thread[main,5,main]) started.
+:featureA:clean
+Putting task artifact state for task ':featureA:clean' into context took 0.0 secs.
+Executing task ':featureA:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:featureA:clean (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:clean (Thread[main,5,main]) started.
+:featureB:clean
+Putting task artifact state for task ':featureB:clean' into context took 0.0 secs.
+Executing task ':featureB:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:featureB:clean (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:api:clean (Thread[main,5,main]) started.
+:featureA:api:clean
+Putting task artifact state for task ':featureA:api:clean' into context took 0.0 secs.
+Executing task ':featureA:api:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:featureA:api:clean (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:implementation:clean (Thread[main,5,main]) started.
+:featureA:implementation:clean
+Putting task artifact state for task ':featureA:implementation:clean' into context took 0.0 secs.
+Executing task ':featureA:implementation:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:featureA:implementation:clean (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:api:clean (Thread[main,5,main]) started.
+:featureB:api:clean
+Putting task artifact state for task ':featureB:api:clean' into context took 0.0 secs.
+Executing task ':featureB:api:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:featureB:api:clean (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:implementation:clean (Thread[main,5,main]) started.
+:featureB:implementation:clean
+Putting task artifact state for task ':featureB:implementation:clean' into context took 0.0 secs.
+Executing task ':featureB:implementation:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:featureB:implementation:clean (Thread[main,5,main]) completed. Took 0.001 secs.
+:compileJava (Thread[main,5,main]) started.
+:compileJava
+Putting task artifact state for task ':compileJava' into context took 0.004 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/src/main/java', not found
+Skipping task ':compileJava' as it has no source files and no previous output files.
+:compileJava NO-SOURCE
+:compileJava (Thread[main,5,main]) completed. Took 0.013 secs.
+:processResources (Thread[main,5,main]) started.
+:processResources
+Putting task artifact state for task ':processResources' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/src/main/resources', not found
+Skipping task ':processResources' as it has no source files and no previous output files.
+:processResources NO-SOURCE
+:processResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:classes (Thread[main,5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes UP-TO-DATE
+:classes (Thread[main,5,main]) completed. Took 0.0 secs.
+:jar (Thread[main,5,main]) started.
+:jar
+Putting task artifact state for task ':jar' into context took 0.002 secs.
+Task :jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':jar' (up-to-date check took 0.017 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/build/libs/scooby-0.0.1-SNAPSHOT.jar has changed.
+:jar (Thread[main,5,main]) completed. Took 0.042 secs.
+:assemble (Thread[main,5,main]) started.
+:assemble
+Skipping task ':assemble' as it has no actions.
+:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:compileTestJava (Thread[main,5,main]) started.
+:compileTestJava
+Putting task artifact state for task ':compileTestJava' into context took 0.003 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/src/test/java', not found
+Skipping task ':compileTestJava' as it has no source files and no previous output files.
+:compileTestJava NO-SOURCE
+:compileTestJava (Thread[main,5,main]) completed. Took 0.004 secs.
+:processTestResources (Thread[main,5,main]) started.
+:processTestResources
+Putting task artifact state for task ':processTestResources' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/src/test/resources', not found
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+:processTestResources NO-SOURCE
+:processTestResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:testClasses (Thread[main,5,main]) started.
+:testClasses
+Skipping task ':testClasses' as it has no actions.
+:testClasses UP-TO-DATE
+:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:test (Thread[main,5,main]) started.
+:test
+Putting task artifact state for task ':test' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/build/classes/test', not found
+Skipping task ':test' as it has no source files and no previous output files.
+:test NO-SOURCE
+:test (Thread[main,5,main]) completed. Took 0.002 secs.
+:check (Thread[main,5,main]) started.
+:check
+Skipping task ':check' as it has no actions.
+:check UP-TO-DATE
+:check (Thread[main,5,main]) completed. Took 0.0 secs.
+:build (Thread[main,5,main]) started.
+:build
+Skipping task ':build' as it has no actions.
+:build (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:api:compileJava (Thread[main,5,main]) started.
+:featureA:api:compileJava
+Putting task artifact state for task ':featureA:api:compileJava' into context took 0.001 secs.
+Skipping task ':featureA:api:compileJava' as it has no source files and no previous output files.
+:featureA:api:compileJava NO-SOURCE
+:featureA:api:compileJava (Thread[main,5,main]) completed. Took 0.004 secs.
+:featureA:api:processResources (Thread[main,5,main]) started.
+:featureA:api:processResources
+Putting task artifact state for task ':featureA:api:processResources' into context took 0.001 secs.
+:featureA:api:processResources NO-SOURCE
+:featureA:api:processResources (Thread[main,5,main]) completed. Took 0.002 secs.
+:featureA:api:classes (Thread[main,5,main]) started.
+:featureA:api:classes
+Skipping task ':featureA:api:classes' as it has no actions.
+:featureA:api:classes UP-TO-DATE
+:featureA:api:classes (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:api:jar (Thread[main,5,main]) started.
+:featureA:api:jar
+Putting task artifact state for task ':featureA:api:jar' into context took 0.0 secs.
+Task :featureA:api:jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :featureA:api:jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':featureA:api:jar' (up-to-date check took 0.002 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/featureA/api/build/libs/api.jar has changed.
+:featureA:api:jar (Thread[main,5,main]) completed. Took 0.006 secs.
+:featureA:implementation:compileJava (Thread[main,5,main]) started.
+:featureA:implementation:compileJava
+Putting task artifact state for task ':featureA:implementation:compileJava' into context took 0.003 secs.
+Skipping task ':featureA:implementation:compileJava' as it has no source files and no previous output files.
+:featureA:implementation:compileJava NO-SOURCE
+:featureA:implementation:compileJava (Thread[main,5,main]) completed. Took 0.004 secs.
+:featureA:implementation:processResources (Thread[main,5,main]) started.
+:featureA:implementation:processResources
+Putting task artifact state for task ':featureA:implementation:processResources' into context took 0.001 secs.
+:featureA:implementation:processResources NO-SOURCE
+:featureA:implementation:processResources (Thread[main,5,main]) completed. Took 0.002 secs.
+:featureA:implementation:classes (Thread[main,5,main]) started.
+:featureA:implementation:classes
+Skipping task ':featureA:implementation:classes' as it has no actions.
+:featureA:implementation:classes UP-TO-DATE
+:featureA:implementation:classes (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:implementation:jar (Thread[main,5,main]) started.
+:featureA:implementation:jar
+Putting task artifact state for task ':featureA:implementation:jar' into context took 0.0 secs.
+Task :featureA:implementation:jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :featureA:implementation:jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':featureA:implementation:jar' (up-to-date check took 0.002 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/featureA/implementation/build/libs/implementation.jar has changed.
+:featureA:implementation:jar (Thread[main,5,main]) completed. Took 0.005 secs.
+:featureB:api:compileJava (Thread[main,5,main]) started.
+:featureB:api:compileJava
+Putting task artifact state for task ':featureB:api:compileJava' into context took 0.002 secs.
+Skipping task ':featureB:api:compileJava' as it has no source files and no previous output files.
+:featureB:api:compileJava NO-SOURCE
+:featureB:api:compileJava (Thread[main,5,main]) completed. Took 0.003 secs.
+:featureB:api:processResources (Thread[main,5,main]) started.
+:featureB:api:processResources
+Putting task artifact state for task ':featureB:api:processResources' into context took 0.0 secs.
+:featureB:api:processResources NO-SOURCE
+:featureB:api:processResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:api:classes (Thread[main,5,main]) started.
+:featureB:api:classes
+Skipping task ':featureB:api:classes' as it has no actions.
+:featureB:api:classes UP-TO-DATE
+:featureB:api:classes (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:api:jar (Thread[main,5,main]) started.
+:featureB:api:jar
+Putting task artifact state for task ':featureB:api:jar' into context took 0.0 secs.
+Task :featureB:api:jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :featureB:api:jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':featureB:api:jar' (up-to-date check took 0.002 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/featureB/api/build/libs/api.jar has changed.
+:featureB:api:jar (Thread[main,5,main]) completed. Took 0.006 secs.
+:featureB:implementation:compileJava (Thread[main,5,main]) started.
+:featureB:implementation:compileJava
+Putting task artifact state for task ':featureB:implementation:compileJava' into context took 0.001 secs.
+Skipping task ':featureB:implementation:compileJava' as it has no source files and no previous output files.
+:featureB:implementation:compileJava NO-SOURCE
+:featureB:implementation:compileJava (Thread[main,5,main]) completed. Took 0.002 secs.
+:featureB:implementation:processResources (Thread[main,5,main]) started.
+:featureB:implementation:processResources
+Putting task artifact state for task ':featureB:implementation:processResources' into context took 0.0 secs.
+:featureB:implementation:processResources NO-SOURCE
+:featureB:implementation:processResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:implementation:classes (Thread[main,5,main]) started.
+:featureB:implementation:classes
+Skipping task ':featureB:implementation:classes' as it has no actions.
+:featureB:implementation:classes UP-TO-DATE
+:featureB:implementation:classes (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:implementation:jar (Thread[main,5,main]) started.
+:featureB:implementation:jar
+Putting task artifact state for task ':featureB:implementation:jar' into context took 0.0 secs.
+Task :featureB:implementation:jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :featureB:implementation:jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':featureB:implementation:jar' (up-to-date check took 0.001 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/featureB/implementation/build/libs/implementation.jar has changed.
+:featureB:implementation:jar (Thread[main,5,main]) completed. Took 0.004 secs.
+:application:compileJava (Thread[main,5,main]) started.
+:application:compileJava
+Putting task artifact state for task ':application:compileJava' into context took 0.002 secs.
+Task :application:compileJava class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :application:compileJava actions class loader hashes: [1f6ff3b3ba5230c3fbd3f830dd3d4703, 0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Resolving dependency management for configuration 'compileClasspath' of project 'application'
+Resolving dependency management for configuration 'compileOnly' of project 'application'
+Resolving dependency management for configuration 'implementation' of project 'application'
+Resolving dependency management for configuration 'compile' of project 'application'
+Resolving dependency management for configuration 'providedCompile' of project 'application'
+Resolving global dependency management for project 'application'
+Excluding [commons-logging:commons-logging]
+Executing task ':application:compileJava' (up-to-date check took 0.685 secs) due to:
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/classes/main has changed.
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/classes/main/com has been removed.
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example has been removed.
+All input files are considered out-of-date for incremental task ':application:compileJava'.
+Compiling with JDK Java compiler API.
+:application:compileJava (Thread[main,5,main]) completed. Took 0.941 secs.
+:application:processResources (Thread[main,5,main]) started.
+:application:processResources
+Putting task artifact state for task ':application:processResources' into context took 0.002 secs.
+Task :application:processResources class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :application:processResources actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':application:processResources' (up-to-date check took 0.002 secs) due to:
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/resources/main has changed.
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/resources/main/static has been removed.
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/resources/main/templates has been removed.
+:application:processResources (Thread[main,5,main]) completed. Took 0.008 secs.
+:application:classes (Thread[main,5,main]) started.
+:application:classes
+Skipping task ':application:classes' as it has no actions.
+:application:classes (Thread[main,5,main]) completed. Took 0.001 secs.
+:application:findMainClass (Thread[main,5,main]) started.
+:application:findMainClass
+Putting task artifact state for task ':application:findMainClass' into context took 0.0 secs.
+Executing task ':application:findMainClass' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Computed main class: com.example.scooby.ScoobyApplication
+Found main: com.example.scooby.ScoobyApplication
+:application:findMainClass (Thread[main,5,main]) completed. Took 0.017 secs.
+:application:war (Thread[main,5,main]) started.
+:application:war
+Putting task artifact state for task ':application:war' into context took 0.001 secs.
+Resolving dependency management for configuration 'runtimeClasspath' of project 'application'
+Resolving dependency management for configuration 'runtimeOnly' of project 'application'
+Resolving dependency management for configuration 'runtime' of project 'application'
+Resolving dependency management for configuration 'providedRuntime' of project 'application'
+Excluding []
+Excluding []
+Task :application:war class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :application:war actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':application:war' (up-to-date check took 0.014 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/application/build/libs/scooby.war has changed.
+:application:war (Thread[main,5,main]) completed. Took 0.454 secs.
+:application:bootRepackage (Thread[main,5,main]) started.
+:application:bootRepackage
+Putting task artifact state for task ':application:bootRepackage' into context took 0.0 secs.
+Executing task ':application:bootRepackage' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Setting mainClass: com.example.scooby.ScoobyApplication
+Excluding []
+:application:bootRepackage (Thread[main,5,main]) completed. Took 0.165 secs.
+:application:assemble (Thread[main,5,main]) started.
+:application:assemble
+Skipping task ':application:assemble' as it has no actions.
+:application:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:application:compileTestJava (Thread[main,5,main]) started.
+:application:compileTestJava
+Putting task artifact state for task ':application:compileTestJava' into context took 0.001 secs.
+Task :application:compileTestJava class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :application:compileTestJava actions class loader hashes: [1f6ff3b3ba5230c3fbd3f830dd3d4703, 0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Resolving dependency management for configuration 'testCompileClasspath' of project 'application'
+Resolving dependency management for configuration 'testCompileOnly' of project 'application'
+Resolving dependency management for configuration 'testImplementation' of project 'application'
+Resolving dependency management for configuration 'testCompile' of project 'application'
+Excluding [commons-logging:commons-logging]
+Executing task ':application:compileTestJava' (up-to-date check took 0.122 secs) due to:
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/classes/test has changed.
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/classes/test/com has been removed.
+  Output property 'destinationDir' file /home/lagoueyte/dev/repos/scooby/application/build/classes/test/com/example has been removed.
+All input files are considered out-of-date for incremental task ':application:compileTestJava'.
+Compiling with JDK Java compiler API.
+:application:compileTestJava (Thread[main,5,main]) completed. Took 0.165 secs.
+:application:processTestResources (Thread[main,5,main]) started.
+:application:processTestResources
+Putting task artifact state for task ':application:processTestResources' into context took 0.002 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/application/src/test/resources', not found
+Skipping task ':application:processTestResources' as it has no source files and no previous output files.
+:application:processTestResources NO-SOURCE
+:application:processTestResources (Thread[main,5,main]) completed. Took 0.004 secs.
+:application:testClasses (Thread[main,5,main]) started.
+:application:testClasses
+Skipping task ':application:testClasses' as it has no actions.
+:application:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:application:test (Thread[main,5,main]) started.
+:application:test
+Putting task artifact state for task ':application:test' into context took 0.003 secs.
+Task :application:test class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :application:test actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200, e1d5c4b3003235964bf4bb274716a6a0]
+Resolving dependency management for configuration 'testRuntimeClasspath' of project 'application'
+Resolving dependency management for configuration 'testRuntimeOnly' of project 'application'
+Resolving dependency management for configuration 'testRuntime' of project 'application'
+Excluding []
+Executing task ':application:test' (up-to-date check took 0.032 secs) due to:
+  Output property 'binResultsDir' file /home/lagoueyte/dev/repos/scooby/application/build/test-results/test/binary has changed.
+  Output property 'binResultsDir' file /home/lagoueyte/dev/repos/scooby/application/build/test-results/test/binary/results.bin has been removed.
+  Output property 'binResultsDir' file /home/lagoueyte/dev/repos/scooby/application/build/test-results/test/binary/output.bin.idx has been removed.
+Starting process 'Gradle Test Executor 1'. Working directory: /home/lagoueyte/dev/repos/scooby/application Command: /usr/lib/jvm/java-8-oracle/bin/java -Djava.security.manager=worker.org.gradle.process.internal.worker.child.BootstrapSecurityManager -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea -cp /home/lagoueyte/.gradle/caches/3.5.1/workerMain/gradle-worker.jar worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+Successfully started process 'Gradle Test Executor 1'
+Initialized native services in: /home/lagoueyte/.gradle/native
+Gradle Test Executor 1 started executing tests.
+
+com.example.scooby.ScoobyApplicationTests STANDARD_OUT
+    10:43:47.236 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.scooby.ScoobyApplicationTests]
+    10:43:47.239 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+    10:43:47.244 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+    10:43:47.254 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.scooby.ScoobyApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+    10:43:47.262 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.scooby.ScoobyApplicationTests], using SpringBootContextLoader
+    10:43:47.264 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.scooby.ScoobyApplicationTests]: class path resource [com/example/scooby/ScoobyApplicationTests-context.xml] does not exist
+    10:43:47.264 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.scooby.ScoobyApplicationTests]: class path resource [com/example/scooby/ScoobyApplicationTestsContext.groovy] does not exist
+    10:43:47.264 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.scooby.ScoobyApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+    10:43:47.265 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.scooby.ScoobyApplicationTests]: ScoobyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+    10:43:47.290 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.295 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+    10:43:47.296 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+    10:43:47.296 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@790644196 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, java.vm.version=25.144-b01, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/lagoueyte/dev/repos/scooby/application, java.runtime.version=1.8.0_144-b01, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+    , java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.10.0-32-generic, user.home=/home/lagoueyte, user.timezone=Europe/Paris, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/home/lagoueyte/dev/repos/scooby/application/build/classes/test:/home/lagoueyte/dev/repos/scooby/application/build/resources/test:/home/lagoueyte/dev/repos/scooby/application/build/classes/main:/home/lagoueyte/dev/repos/scooby/application/build/resources/main:/home/lagoueyte/dev/repos/scooby/featureA/api/build/libs/api.jar:/home/lagoueyte/dev/repos/scooby/featureA/implementation/build/libs/implementation.jar:/home/lagoueyte/dev/repos/scooby/featureB/api/build/libs/api.jar:/home/lagoueyte/dev/repos/scooby/featureB/implementation/build/libs/implementation.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.5.7.RELEASE/a862305be8b7512a41f6768d825ed37251ccbbe0/spring-boot-starter-web-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.5.7.RELEASE/eae533e2a0111a51d812912acb3d3e2368736d1b/spring-boot-starter-tomcat-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.5.7.RELEASE/d23f37a72c2d4e46aba66bc69a649213f9cadeee/spring-boot-starter-test-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.5.7.RELEASE/b42fe6962dd8b3be4ac8c1d7134d0ca2d0a35c7e/spring-boot-starter-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.3.5.Final/622a9bcef2eed6d41b5b8e0662c36212009e375/hibernate-validator-5.3.5.Final.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.10/f7b83cb2bc4b88d53961e749e1ad32f49ef017b7/jackson-databind-2.8.10.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.11.RELEASE/50a3dfce550bdf9459dfb2c6282aa104b040258e/spring-web-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.11.RELEASE/814f91ec4dc324e724bbe7cbc5045b234604c539/spring-webmvc-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.20/b9026ee20f1f6a2b0fc3e51dd806d800901448b0/tomcat-embed-core-8.5.20.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.20/42960f481a8a80f4ffd3b865c2232820e3565bf1/tomcat-embed-el-8.5.20.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.20/4df9055507926a2651f691cc9964c50493a0ab29/tomcat-embed-websocket-8.5.20.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.5.7.RELEASE/b8d77445d48f4320f404d8f13f4e5cb95bc36b30/spring-boot-test-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.5.7.RELEASE/8bead16b97c9f1b5fe7c47f3e030dd9351a6974d/spring-boot-test-autoconfigure-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.6.0/b532c3fc4f66bcfee4989a3514f1cd56203a33ad/assertj-core-2.6.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.4.0/9cdbb373a06f6513e51e8c545ee6a5e981463edb/jsonassert-1.4.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.11.RELEASE/eb30ed093f628279d3aead068fd478fa343f1dad/spring-core-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.11.RELEASE/cf765b5d6d6bdc38c67522ecae3fe9549da43e1/spring-test-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.7.RELEASE/1006870df7b3dc203df7ce84463c5dd7049fdaa4/spring-boot-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.7.RELEASE/e83f1407ff991e9e7eb156f49fa19d868bb73289/spring-boot-autoconfigure-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.5.7.RELEASE/c84c4ea09d7f789a0d5e936a961471e5dbd9295e/spring-boot-starter-logging-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.1.Final/c46217ab74b532568c0ed31dc599db3048bd1b67/jboss-logging-3.3.1.Final.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.10/eb21a035c66ad307e66ec8fce37f5d50fd62d039/jackson-core-2.8.10.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.11.RELEASE/461d0bb58f1de30203d9331adf4b51de9554de5a/spring-aop-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.11.RELEASE/591cc35fd39292adae13f01aa13e978d0bb11936/spring-beans-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/3efec2d7c7469d49108a2b21c3f15831f7297569/spring-context-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.11.RELEASE/fca662a2fccdad90ec22b2aaecb021047dcbe249/spring-expression-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/ccedfbacef4a6515d2983e3f89ed753d5d4fb665/logback-classic-1.1.11.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.25/a87bb47468f47ee7aabbd54f93e133d4215769c3/log4j-over-slf4j-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.11/88b8df40340eed549fb07e2613879bf6b006704d/logback-core-1.1.11.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar, user.name=lagoueyte, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1', java.home=/usr/lib/jvm/java-8-oracle/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_144, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, java.vendor=Oracle Corporation, org.gradle.test.worker=1, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.cpu.isalist=}}, SystemEnvironmentPropertySource@1762552859 {name='systemEnvironment', properties={PATH=/home/lagoueyte/.nvm/versions/node/v6.11.1/bin:/home/lagoueyte/.sdkman/candidates/gradle/current/bin:/home/lagoueyte/bin:/home/lagoueyte/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin, XAUTHORITY=/home/lagoueyte/.Xauthority, LC_MEASUREMENT=fr_FR.UTF-8, SDKMAN_VERSION=5.5.10+240, LC_TELEPHONE=fr_FR.UTF-8, MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path, GDMSESSION=mate, XDG_DATA_DIRS=/usr/share/mate:/usr/local/share/:/usr/share/, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-QHxei7x9w5,guid=977961441c56f9ce5b7e51af59d1e909, DEFAULTS_PATH=/usr/share/gconf/mate.default.path, XDG_CURRENT_DESKTOP=MATE, SSH_AGENT_PID=1451, CLUTTER_BACKEND=x11, COLORTERM=mate-terminal, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, SESSION_MANAGER=local/kahlua:@/tmp/.ICE-unix/1316,unix/kahlua:/tmp/.ICE-unix/1316, SDKMAN_DIR=/home/lagoueyte/.sdkman, LC_PAPER=fr_FR.UTF-8, LOGNAME=lagoueyte, PWD=/home/lagoueyte/dev/repos/scooby, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, LANGUAGE=en_US, WINDOWID=60817414, NVM_CD_FLAGS=, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, LC_ADDRESS=fr_FR.UTF-8, J2SDKDIR=/usr/lib/jvm/java-8-oracle, OLDPWD=/home/lagoueyte/dev/repos/scooby, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, GTK_MODULES=gail:atk-bridge, XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, MATE_DESKTOP_SESSION_ID=this-is-deprecated, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, XDG_SESSION_DESKTOP=mate, SHLVL=2, SDKMAN_CURRENT_API=https://api.sdkman.io/2, LC_IDENTIFICATION=fr_FR.UTF-8, LC_MONETARY=fr_FR.UTF-8, LESSCLOSE=/usr/bin/lesspipe %s %s, COMPIZ_CONFIG_PROFILE=mate, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LANG=en_US.UTF-8, XDG_SESSION_TYPE=x11, XDG_SESSION_ID=c1, GRADLE_HOME=/home/lagoueyte/.sdkman/candidates/gradle/current, QT_STYLE_OVERRIDE=gtk, DISPLAY=:0, LC_NAME=fr_FR.UTF-8, _=/home/lagoueyte/dev/repos/scooby/gradlew, SDKMAN_CANDIDATES_DIR=/home/lagoueyte/.sdkman/candidates, SDKMAN_LEGACY_API=https://api.sdkman.io/1, NVM_DIR=/home/lagoueyte/.nvm, GDM_LANG=en_US, XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/lagoueyte, DESKTOP_SESSION=mate, SDKMAN_PLATFORM=Linux64, USER=lagoueyte, QT_ACCESSIBILITY=1, VTE_VERSION=4205, LC_NUMERIC=fr_FR.UTF-8, XDG_SEAT=seat0, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, GTK_OVERLAY_SCROLLING=0, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, XDG_RUNTIME_DIR=/run/user/1000, XDG_VTNR=7, NVM_BIN=/home/lagoueyte/.nvm/versions/node/v6.11.1/bin, HOME=/home/lagoueyte}}]
+    10:43:47.308 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/scooby/] to resources [URL [file:/home/lagoueyte/dev/repos/scooby/application/build/classes/test/com/example/scooby/], URL [file:/home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example/scooby/]]
+    10:43:47.308 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/lagoueyte/dev/repos/scooby/application/build/classes/test/com/example/scooby]
+    10:43:47.309 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/lagoueyte/dev/repos/scooby/application/build/classes/test/com/example/scooby] for files matching pattern [/home/lagoueyte/dev/repos/scooby/application/build/classes/test/com/example/scooby/*.class]
+    10:43:47.311 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example/scooby]
+    10:43:47.312 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example/scooby] for files matching pattern [/home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example/scooby/*.class]
+    10:43:47.312 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/scooby/*.class] to resources [file [/home/lagoueyte/dev/repos/scooby/application/build/classes/test/com/example/scooby/ScoobyApplicationTests.class], file [/home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example/scooby/ScoobyApplication.class]]
+    10:43:47.347 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/lagoueyte/dev/repos/scooby/application/build/classes/main/com/example/scooby/ScoobyApplication.class]
+    10:43:47.348 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.scooby.ScoobyApplication for test class com.example.scooby.ScoobyApplicationTests
+    10:43:47.351 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.scooby.ScoobyApplicationTests]: using defaults.
+    10:43:47.355 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+    10:43:47.364 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+    10:43:47.366 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+    10:43:47.367 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ff77a97, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ddc2e41, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e202fad, org.springframework.test.context.support.DirtiesContextTestExecutionListener@141ccea5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@40eb2d73, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c29bd09, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@538bb266, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21103754, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@380916b0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5929254d]
+    10:43:47.370 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.371 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.372 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.373 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.376 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@12e193a5 testClass = ScoobyApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@34e6eb5b testClass = ScoobyApplicationTests, locations = '{}', classes = '{class com.example.scooby.ScoobyApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@570356c2, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@33e28bb0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@597e080f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@789d845e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+    10:43:47.377 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.377 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.scooby.ScoobyApplicationTests]
+    10:43:47.415 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+    10:43:47.415 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+    10:43:47.415 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [MapPropertySource@1446709694 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, java.vm.version=25.144-b01, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/lagoueyte/dev/repos/scooby/application, java.runtime.version=1.8.0_144-b01, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+    , java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.10.0-32-generic, user.home=/home/lagoueyte, user.timezone=Europe/Paris, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/home/lagoueyte/dev/repos/scooby/application/build/classes/test:/home/lagoueyte/dev/repos/scooby/application/build/resources/test:/home/lagoueyte/dev/repos/scooby/application/build/classes/main:/home/lagoueyte/dev/repos/scooby/application/build/resources/main:/home/lagoueyte/dev/repos/scooby/featureA/api/build/libs/api.jar:/home/lagoueyte/dev/repos/scooby/featureA/implementation/build/libs/implementation.jar:/home/lagoueyte/dev/repos/scooby/featureB/api/build/libs/api.jar:/home/lagoueyte/dev/repos/scooby/featureB/implementation/build/libs/implementation.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.5.7.RELEASE/a862305be8b7512a41f6768d825ed37251ccbbe0/spring-boot-starter-web-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.5.7.RELEASE/eae533e2a0111a51d812912acb3d3e2368736d1b/spring-boot-starter-tomcat-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.5.7.RELEASE/d23f37a72c2d4e46aba66bc69a649213f9cadeee/spring-boot-starter-test-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.5.7.RELEASE/b42fe6962dd8b3be4ac8c1d7134d0ca2d0a35c7e/spring-boot-starter-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.3.5.Final/622a9bcef2eed6d41b5b8e0662c36212009e375/hibernate-validator-5.3.5.Final.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.10/f7b83cb2bc4b88d53961e749e1ad32f49ef017b7/jackson-databind-2.8.10.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.11.RELEASE/50a3dfce550bdf9459dfb2c6282aa104b040258e/spring-web-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.11.RELEASE/814f91ec4dc324e724bbe7cbc5045b234604c539/spring-webmvc-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.20/b9026ee20f1f6a2b0fc3e51dd806d800901448b0/tomcat-embed-core-8.5.20.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.20/42960f481a8a80f4ffd3b865c2232820e3565bf1/tomcat-embed-el-8.5.20.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.20/4df9055507926a2651f691cc9964c50493a0ab29/tomcat-embed-websocket-8.5.20.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.5.7.RELEASE/b8d77445d48f4320f404d8f13f4e5cb95bc36b30/spring-boot-test-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.5.7.RELEASE/8bead16b97c9f1b5fe7c47f3e030dd9351a6974d/spring-boot-test-autoconfigure-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.6.0/b532c3fc4f66bcfee4989a3514f1cd56203a33ad/assertj-core-2.6.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.4.0/9cdbb373a06f6513e51e8c545ee6a5e981463edb/jsonassert-1.4.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.11.RELEASE/eb30ed093f628279d3aead068fd478fa343f1dad/spring-core-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.11.RELEASE/cf765b5d6d6bdc38c67522ecae3fe9549da43e1/spring-test-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.7.RELEASE/1006870df7b3dc203df7ce84463c5dd7049fdaa4/spring-boot-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.7.RELEASE/e83f1407ff991e9e7eb156f49fa19d868bb73289/spring-boot-autoconfigure-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.5.7.RELEASE/c84c4ea09d7f789a0d5e936a961471e5dbd9295e/spring-boot-starter-logging-1.5.7.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.1.Final/c46217ab74b532568c0ed31dc599db3048bd1b67/jboss-logging-3.3.1.Final.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.10/eb21a035c66ad307e66ec8fce37f5d50fd62d039/jackson-core-2.8.10.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.11.RELEASE/461d0bb58f1de30203d9331adf4b51de9554de5a/spring-aop-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.11.RELEASE/591cc35fd39292adae13f01aa13e978d0bb11936/spring-beans-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/3efec2d7c7469d49108a2b21c3f15831f7297569/spring-context-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.11.RELEASE/fca662a2fccdad90ec22b2aaecb021047dcbe249/spring-expression-4.3.11.RELEASE.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/ccedfbacef4a6515d2983e3f89ed753d5d4fb665/logback-classic-1.1.11.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.25/a87bb47468f47ee7aabbd54f93e133d4215769c3/log4j-over-slf4j-1.7.25.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.11/88b8df40340eed549fb07e2613879bf6b006704d/logback-core-1.1.11.jar:/home/lagoueyte/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar, user.name=lagoueyte, java.vm.specification.version=1.8, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1', java.home=/usr/lib/jvm/java-8-oracle/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_144, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, java.vendor=Oracle Corporation, org.gradle.test.worker=1, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.cpu.isalist=}}, SystemEnvironmentPropertySource@1869367382 {name='systemEnvironment', properties={PATH=/home/lagoueyte/.nvm/versions/node/v6.11.1/bin:/home/lagoueyte/.sdkman/candidates/gradle/current/bin:/home/lagoueyte/bin:/home/lagoueyte/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin, XAUTHORITY=/home/lagoueyte/.Xauthority, LC_MEASUREMENT=fr_FR.UTF-8, SDKMAN_VERSION=5.5.10+240, LC_TELEPHONE=fr_FR.UTF-8, MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path, GDMSESSION=mate, XDG_DATA_DIRS=/usr/share/mate:/usr/local/share/:/usr/share/, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-QHxei7x9w5,guid=977961441c56f9ce5b7e51af59d1e909, DEFAULTS_PATH=/usr/share/gconf/mate.default.path, XDG_CURRENT_DESKTOP=MATE, SSH_AGENT_PID=1451, CLUTTER_BACKEND=x11, COLORTERM=mate-terminal, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, SESSION_MANAGER=local/kahlua:@/tmp/.ICE-unix/1316,unix/kahlua:/tmp/.ICE-unix/1316, SDKMAN_DIR=/home/lagoueyte/.sdkman, LC_PAPER=fr_FR.UTF-8, LOGNAME=lagoueyte, PWD=/home/lagoueyte/dev/repos/scooby, DERBY_HOME=/usr/lib/jvm/java-8-oracle/db, LANGUAGE=en_US, WINDOWID=60817414, NVM_CD_FLAGS=, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, LC_ADDRESS=fr_FR.UTF-8, J2SDKDIR=/usr/lib/jvm/java-8-oracle, OLDPWD=/home/lagoueyte/dev/repos/scooby, J2REDIR=/usr/lib/jvm/java-8-oracle/jre, GTK_MODULES=gail:atk-bridge, XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, MATE_DESKTOP_SESSION_ID=this-is-deprecated, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, XDG_SESSION_DESKTOP=mate, SHLVL=2, SDKMAN_CURRENT_API=https://api.sdkman.io/2, LC_IDENTIFICATION=fr_FR.UTF-8, LC_MONETARY=fr_FR.UTF-8, LESSCLOSE=/usr/bin/lesspipe %s %s, COMPIZ_CONFIG_PROFILE=mate, JAVA_HOME=/usr/lib/jvm/java-8-oracle, TERM=xterm, XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, LANG=en_US.UTF-8, XDG_SESSION_TYPE=x11, XDG_SESSION_ID=c1, GRADLE_HOME=/home/lagoueyte/.sdkman/candidates/gradle/current, QT_STYLE_OVERRIDE=gtk, DISPLAY=:0, LC_NAME=fr_FR.UTF-8, _=/home/lagoueyte/dev/repos/scooby/gradlew, SDKMAN_CANDIDATES_DIR=/home/lagoueyte/.sdkman/candidates, SDKMAN_LEGACY_API=https://api.sdkman.io/1, NVM_DIR=/home/lagoueyte/.nvm, GDM_LANG=en_US, XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/lagoueyte, DESKTOP_SESSION=mate, SDKMAN_PLATFORM=Linux64, USER=lagoueyte, QT_ACCESSIBILITY=1, VTE_VERSION=4205, LC_NUMERIC=fr_FR.UTF-8, XDG_SEAT=seat0, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, GTK_OVERLAY_SCROLLING=0, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, XDG_RUNTIME_DIR=/run/user/1000, XDG_VTNR=7, NVM_BIN=/home/lagoueyte/.nvm/versions/node/v6.11.1/bin, HOME=/home/lagoueyte}}]
+    10:43:47.417 [Test worker] DEBUG org.springframework.core.env.MutablePropertySources - Adding PropertySource 'inline' with highest search precedence
+    10:43:47.422 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+    10:43:47.423 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'Inlined Test Properties' with highest search precedence
+
+      .   ____          _            __ _ _
+     /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+    ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+      '  |____| .__|_| |_|_| |_\__, | / / / /
+     =========|_|==============|___/=/_/_/_/
+     :: Spring Boot ::        (v1.5.7.RELEASE)
+
+    2017-10-02 10:43:47.612  INFO 11658 --- [    Test worker] c.example.scooby.ScoobyApplicationTests  : Starting ScoobyApplicationTests on kahlua with PID 11658 (started by lagoueyte in /home/lagoueyte/dev/repos/scooby/application)
+    2017-10-02 10:43:47.613  INFO 11658 --- [    Test worker] c.example.scooby.ScoobyApplicationTests  : No active profile set, falling back to default profiles: default
+    2017-10-02 10:43:47.642  INFO 11658 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b06d016: startup date [Mon Oct 02 10:43:47 CEST 2017]; root of context hierarchy
+    2017-10-02 10:43:48.640  INFO 11658 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4b06d016: startup date [Mon Oct 02 10:43:47 CEST 2017]; root of context hierarchy
+    2017-10-02 10:43:48.692  INFO 11658 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+    2017-10-02 10:43:48.693  INFO 11658 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+    2017-10-02 10:43:48.716  INFO 11658 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+    2017-10-02 10:43:48.716  INFO 11658 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+    2017-10-02 10:43:48.751  INFO 11658 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+    2017-10-02 10:43:48.864  INFO 11658 --- [    Test worker] c.example.scooby.ScoobyApplicationTests  : Started ScoobyApplicationTests in 1.434 seconds (JVM running for 2.056)
+Gradle Test Executor 1 finished executing tests.
+2017-10-02 10:43:48.899  INFO 11658 --- [       Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4b06d016: startup date [Mon Oct 02 10:43:47 CEST 2017]; root of context hierarchy
+Finished generating test XML results (0.013 secs) into: /home/lagoueyte/dev/repos/scooby/application/build/test-results/test
+Generating HTML test report...
+Finished generating test html results (0.019 secs) into: /home/lagoueyte/dev/repos/scooby/application/build/reports/tests/test
+:application:test (Thread[main,5,main]) completed. Took 2.259 secs.
+:application:check (Thread[main,5,main]) started.
+:application:check
+Skipping task ':application:check' as it has no actions.
+:application:check (Thread[main,5,main]) completed. Took 0.001 secs.
+:application:build (Thread[main,5,main]) started.
+:application:build
+Skipping task ':application:build' as it has no actions.
+:application:build (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:compileJava (Thread[main,5,main]) started.
+:featureA:compileJava
+Putting task artifact state for task ':featureA:compileJava' into context took 0.002 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/src/main/java', not found
+Skipping task ':featureA:compileJava' as it has no source files and no previous output files.
+:featureA:compileJava NO-SOURCE
+:featureA:compileJava (Thread[main,5,main]) completed. Took 0.002 secs.
+:featureA:processResources (Thread[main,5,main]) started.
+:featureA:processResources
+Putting task artifact state for task ':featureA:processResources' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/src/main/resources', not found
+Skipping task ':featureA:processResources' as it has no source files and no previous output files.
+:featureA:processResources NO-SOURCE
+:featureA:processResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:classes (Thread[main,5,main]) started.
+:featureA:classes
+Skipping task ':featureA:classes' as it has no actions.
+:featureA:classes UP-TO-DATE
+:featureA:classes (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:jar (Thread[main,5,main]) started.
+:featureA:jar
+Putting task artifact state for task ':featureA:jar' into context took 0.001 secs.
+Task :featureA:jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :featureA:jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':featureA:jar' (up-to-date check took 0.002 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/featureA/build/libs/featureA.jar has changed.
+:featureA:jar (Thread[main,5,main]) completed. Took 0.005 secs.
+:featureA:assemble (Thread[main,5,main]) started.
+:featureA:assemble
+Skipping task ':featureA:assemble' as it has no actions.
+:featureA:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:compileTestJava (Thread[main,5,main]) started.
+:featureA:compileTestJava
+Putting task artifact state for task ':featureA:compileTestJava' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/src/test/java', not found
+Skipping task ':featureA:compileTestJava' as it has no source files and no previous output files.
+:featureA:compileTestJava NO-SOURCE
+:featureA:compileTestJava (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:processTestResources (Thread[main,5,main]) started.
+:featureA:processTestResources
+Putting task artifact state for task ':featureA:processTestResources' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/src/test/resources', not found
+Skipping task ':featureA:processTestResources' as it has no source files and no previous output files.
+:featureA:processTestResources NO-SOURCE
+:featureA:processTestResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:testClasses (Thread[main,5,main]) started.
+:featureA:testClasses
+Skipping task ':featureA:testClasses' as it has no actions.
+:featureA:testClasses UP-TO-DATE
+:featureA:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:test (Thread[main,5,main]) started.
+:featureA:test
+Putting task artifact state for task ':featureA:test' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/build/classes/test', not found
+Skipping task ':featureA:test' as it has no source files and no previous output files.
+:featureA:test NO-SOURCE
+:featureA:test (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:check (Thread[main,5,main]) started.
+:featureA:check
+Skipping task ':featureA:check' as it has no actions.
+:featureA:check UP-TO-DATE
+:featureA:check (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:build (Thread[main,5,main]) started.
+:featureA:build
+Skipping task ':featureA:build' as it has no actions.
+:featureA:build (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:compileJava (Thread[main,5,main]) started.
+:featureB:compileJava
+Putting task artifact state for task ':featureB:compileJava' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/src/main/java', not found
+Skipping task ':featureB:compileJava' as it has no source files and no previous output files.
+:featureB:compileJava NO-SOURCE
+:featureB:compileJava (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:processResources (Thread[main,5,main]) started.
+:featureB:processResources
+Putting task artifact state for task ':featureB:processResources' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/src/main/resources', not found
+Skipping task ':featureB:processResources' as it has no source files and no previous output files.
+:featureB:processResources NO-SOURCE
+:featureB:processResources (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:classes (Thread[main,5,main]) started.
+:featureB:classes
+Skipping task ':featureB:classes' as it has no actions.
+:featureB:classes UP-TO-DATE
+:featureB:classes (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:jar (Thread[main,5,main]) started.
+:featureB:jar
+Putting task artifact state for task ':featureB:jar' into context took 0.001 secs.
+Task :featureB:jar class loader hash: e1d5c4b3003235964bf4bb274716a6a0
+Task :featureB:jar actions class loader hashes: [0c0afac576bb2de41200bc36bccb9200]
+Executing task ':featureB:jar' (up-to-date check took 0.001 secs) due to:
+  Output property 'archivePath' file /home/lagoueyte/dev/repos/scooby/featureB/build/libs/featureB.jar has changed.
+:featureB:jar (Thread[main,5,main]) completed. Took 0.004 secs.
+:featureB:assemble (Thread[main,5,main]) started.
+:featureB:assemble
+Skipping task ':featureB:assemble' as it has no actions.
+:featureB:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:compileTestJava (Thread[main,5,main]) started.
+:featureB:compileTestJava
+Putting task artifact state for task ':featureB:compileTestJava' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/src/test/java', not found
+Skipping task ':featureB:compileTestJava' as it has no source files and no previous output files.
+:featureB:compileTestJava NO-SOURCE
+:featureB:compileTestJava (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:processTestResources (Thread[main,5,main]) started.
+:featureB:processTestResources
+Putting task artifact state for task ':featureB:processTestResources' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/src/test/resources', not found
+Skipping task ':featureB:processTestResources' as it has no source files and no previous output files.
+:featureB:processTestResources NO-SOURCE
+:featureB:processTestResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:testClasses (Thread[main,5,main]) started.
+:featureB:testClasses
+Skipping task ':featureB:testClasses' as it has no actions.
+:featureB:testClasses UP-TO-DATE
+:featureB:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:test (Thread[main,5,main]) started.
+:featureB:test
+Putting task artifact state for task ':featureB:test' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/build/classes/test', not found
+Skipping task ':featureB:test' as it has no source files and no previous output files.
+:featureB:test NO-SOURCE
+:featureB:test (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:check (Thread[main,5,main]) started.
+:featureB:check
+Skipping task ':featureB:check' as it has no actions.
+:featureB:check UP-TO-DATE
+:featureB:check (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:build (Thread[main,5,main]) started.
+:featureB:build
+Skipping task ':featureB:build' as it has no actions.
+:featureB:build (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:api:assemble (Thread[main,5,main]) started.
+:featureA:api:assemble
+Skipping task ':featureA:api:assemble' as it has no actions.
+:featureA:api:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:api:compileTestJava (Thread[main,5,main]) started.
+:featureA:api:compileTestJava
+Putting task artifact state for task ':featureA:api:compileTestJava' into context took 0.0 secs.
+Skipping task ':featureA:api:compileTestJava' as it has no source files and no previous output files.
+:featureA:api:compileTestJava NO-SOURCE
+:featureA:api:compileTestJava (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:api:processTestResources (Thread[main,5,main]) started.
+:featureA:api:processTestResources
+Putting task artifact state for task ':featureA:api:processTestResources' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/api/src/test/resources', not found
+Skipping task ':featureA:api:processTestResources' as it has no source files and no previous output files.
+:featureA:api:processTestResources NO-SOURCE
+:featureA:api:processTestResources (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:api:testClasses (Thread[main,5,main]) started.
+:featureA:api:testClasses
+Skipping task ':featureA:api:testClasses' as it has no actions.
+:featureA:api:testClasses UP-TO-DATE
+:featureA:api:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:api:test (Thread[main,5,main]) started.
+:featureA:api:test
+Putting task artifact state for task ':featureA:api:test' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/api/build/classes/test', not found
+Skipping task ':featureA:api:test' as it has no source files and no previous output files.
+:featureA:api:test NO-SOURCE
+:featureA:api:test (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:api:check (Thread[main,5,main]) started.
+:featureA:api:check
+Skipping task ':featureA:api:check' as it has no actions.
+:featureA:api:check UP-TO-DATE
+:featureA:api:check (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:api:build (Thread[main,5,main]) started.
+:featureA:api:build
+Skipping task ':featureA:api:build' as it has no actions.
+:featureA:api:build (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:implementation:assemble (Thread[main,5,main]) started.
+:featureA:implementation:assemble
+Skipping task ':featureA:implementation:assemble' as it has no actions.
+:featureA:implementation:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:implementation:compileTestJava (Thread[main,5,main]) started.
+:featureA:implementation:compileTestJava
+Putting task artifact state for task ':featureA:implementation:compileTestJava' into context took 0.0 secs.
+Skipping task ':featureA:implementation:compileTestJava' as it has no source files and no previous output files.
+:featureA:implementation:compileTestJava NO-SOURCE
+:featureA:implementation:compileTestJava (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:implementation:processTestResources (Thread[main,5,main]) started.
+:featureA:implementation:processTestResources
+Putting task artifact state for task ':featureA:implementation:processTestResources' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/implementation/src/test/resources', not found
+Skipping task ':featureA:implementation:processTestResources' as it has no source files and no previous output files.
+:featureA:implementation:processTestResources NO-SOURCE
+:featureA:implementation:processTestResources (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:implementation:testClasses (Thread[main,5,main]) started.
+:featureA:implementation:testClasses
+Skipping task ':featureA:implementation:testClasses' as it has no actions.
+:featureA:implementation:testClasses UP-TO-DATE
+:featureA:implementation:testClasses (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureA:implementation:test (Thread[main,5,main]) started.
+:featureA:implementation:test
+Putting task artifact state for task ':featureA:implementation:test' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureA/implementation/build/classes/test', not found
+Skipping task ':featureA:implementation:test' as it has no source files and no previous output files.
+:featureA:implementation:test NO-SOURCE
+:featureA:implementation:test (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:implementation:check (Thread[main,5,main]) started.
+:featureA:implementation:check
+Skipping task ':featureA:implementation:check' as it has no actions.
+:featureA:implementation:check UP-TO-DATE
+:featureA:implementation:check (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureA:implementation:build (Thread[main,5,main]) started.
+:featureA:implementation:build
+Skipping task ':featureA:implementation:build' as it has no actions.
+:featureA:implementation:build (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:api:assemble (Thread[main,5,main]) started.
+:featureB:api:assemble
+Skipping task ':featureB:api:assemble' as it has no actions.
+:featureB:api:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:api:compileTestJava (Thread[main,5,main]) started.
+:featureB:api:compileTestJava
+Putting task artifact state for task ':featureB:api:compileTestJava' into context took 0.0 secs.
+Skipping task ':featureB:api:compileTestJava' as it has no source files and no previous output files.
+:featureB:api:compileTestJava NO-SOURCE
+:featureB:api:compileTestJava (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:api:processTestResources (Thread[main,5,main]) started.
+:featureB:api:processTestResources
+Putting task artifact state for task ':featureB:api:processTestResources' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/api/src/test/resources', not found
+Skipping task ':featureB:api:processTestResources' as it has no source files and no previous output files.
+:featureB:api:processTestResources NO-SOURCE
+:featureB:api:processTestResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:api:testClasses (Thread[main,5,main]) started.
+:featureB:api:testClasses
+Skipping task ':featureB:api:testClasses' as it has no actions.
+:featureB:api:testClasses UP-TO-DATE
+:featureB:api:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:api:test (Thread[main,5,main]) started.
+:featureB:api:test
+Putting task artifact state for task ':featureB:api:test' into context took 0.0 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/api/build/classes/test', not found
+Skipping task ':featureB:api:test' as it has no source files and no previous output files.
+:featureB:api:test NO-SOURCE
+:featureB:api:test (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:api:check (Thread[main,5,main]) started.
+:featureB:api:check
+Skipping task ':featureB:api:check' as it has no actions.
+:featureB:api:check UP-TO-DATE
+:featureB:api:check (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:api:build (Thread[main,5,main]) started.
+:featureB:api:build
+Skipping task ':featureB:api:build' as it has no actions.
+:featureB:api:build (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:implementation:assemble (Thread[main,5,main]) started.
+:featureB:implementation:assemble
+Skipping task ':featureB:implementation:assemble' as it has no actions.
+:featureB:implementation:assemble (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:implementation:compileTestJava (Thread[main,5,main]) started.
+:featureB:implementation:compileTestJava
+Putting task artifact state for task ':featureB:implementation:compileTestJava' into context took 0.0 secs.
+Skipping task ':featureB:implementation:compileTestJava' as it has no source files and no previous output files.
+:featureB:implementation:compileTestJava NO-SOURCE
+:featureB:implementation:compileTestJava (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:implementation:processTestResources (Thread[main,5,main]) started.
+:featureB:implementation:processTestResources
+Putting task artifact state for task ':featureB:implementation:processTestResources' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/implementation/src/test/resources', not found
+Skipping task ':featureB:implementation:processTestResources' as it has no source files and no previous output files.
+:featureB:implementation:processTestResources NO-SOURCE
+:featureB:implementation:processTestResources (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:implementation:testClasses (Thread[main,5,main]) started.
+:featureB:implementation:testClasses
+Skipping task ':featureB:implementation:testClasses' as it has no actions.
+:featureB:implementation:testClasses UP-TO-DATE
+:featureB:implementation:testClasses (Thread[main,5,main]) completed. Took 0.0 secs.
+:featureB:implementation:test (Thread[main,5,main]) started.
+:featureB:implementation:test
+Putting task artifact state for task ':featureB:implementation:test' into context took 0.001 secs.
+file or directory '/home/lagoueyte/dev/repos/scooby/featureB/implementation/build/classes/test', not found
+Skipping task ':featureB:implementation:test' as it has no source files and no previous output files.
+:featureB:implementation:test NO-SOURCE
+:featureB:implementation:test (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:implementation:check (Thread[main,5,main]) started.
+:featureB:implementation:check
+Skipping task ':featureB:implementation:check' as it has no actions.
+:featureB:implementation:check UP-TO-DATE
+:featureB:implementation:check (Thread[main,5,main]) completed. Took 0.001 secs.
+:featureB:implementation:build (Thread[main,5,main]) started.
+:featureB:implementation:build
+Skipping task ':featureB:implementation:build' as it has no actions.
+:featureB:implementation:build (Thread[main,5,main]) completed. Took 0.0 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 6.847 secs
+Stopped 0 worker daemon(s).
